@@ -1,0 +1,51 @@
+section figure, figcaption {
+    margin:0;
+    padding: 0;
+}
+section figcaption {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: .25em;
+}
+section table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 10px ;
+}
+section th, td{
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: right;
+}
+section thead {
+    background-color: grey;
+    border: 1px solid black;
+    font-weight: bold;
+    color: white;
+}
+section td{
+    text-align:center;
+}
+section tbody tr:nth-child(even) {
+    background-color: #E3E3E3;
+}
+section div {
+    border: 1px solid black;
+    padding: 4px;
+    margin: 5px;
+    box-shadow: 3px 3px;
+}
+section img {
+	width:80px;
+	height: 80px;
+    border: 1px solid black;
+    margin-left:15em;
+}
+section img:hover {
+    transform: scale(3,3)
+}
+#left_aside, #right_aside {
+    height: 1056px;
+}

@@ -1,0 +1,35 @@
+section label{
+    width: 200px;
+    display: inline-block;
+    font-size: 18px;
+}
+section ul{
+	line-height: 1.5;
+	list-style-type: none;
+}
+section div {
+	border: 1px solid black;
+	border-radius:10px;
+}
+section textarea{
+	height:7em;
+	width: 32em;
+}
+
+.float_left {
+	float:left;
+}
+.float_right {
+	float: right;
+}
+.clear_float {
+	clear:both;
+}
+#left_aside, #right_aside {
+	height: 571px;
+}
+
+
+
+	
+	
